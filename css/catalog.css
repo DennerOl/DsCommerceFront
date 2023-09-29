@@ -4,7 +4,11 @@
   padding: 20px 0;
 }
 
-
+.dsc-catalog-cards{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr )) ;
+}
 
 
 .dsc-catalog-card-top{
@@ -18,7 +22,7 @@
 }
 
 .dsc-catalog-card-bottom{
-
+  min-height: 110px;
   padding: 10px 20px;
 }
 
