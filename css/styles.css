@@ -49,6 +49,11 @@ main {
 
 .dsc-mb20{
   margin-bottom: 20px;
+  
+}
+.dsc-mt20{
+  margin-top: 20px;
+  
 }
 
 /* header styles-------------------------------------------*/
@@ -128,4 +133,16 @@ ajusto o conteudo com a reponsividade
   background-color: var(--dsc-color-btn-inverse);
   color:var(--dsc-color-btn-primary);
   border: 1px solid #3483fa;
+}
+
+.dsc-btn-next-page{
+  border: 1px solid #3483fa;
+  padding: 10px;
+  border-radius: 4px;
+  color:var(--dsc-color-btn-primary);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+
 }
