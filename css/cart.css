@@ -19,25 +19,6 @@
   flex-direction: column;
 }
 
-/* a partir da medida 576 volto ao modo
-normal da tela 
-*/
-
-@media (min-width: 576px) {
-  .dsc-cart-item-container{
-    flex-direction: row;
-    justify-content: space-between;
-    
-  }
-  .dsc-cart-item-right{
-    padding-top: 10px;
-  }
-
-  .dsc-cart-total-container h3{
-    text-align: right;
-  }
-}
-
 .dsc-cart-item-container img{
   width: 78px;
   height: 78px;
@@ -45,15 +26,14 @@ normal da tela
 
 .dsc-cart-item-left{
   display: flex;
+ 
 }
 
 .dsc-cart-item-quantity-container{
   display: flex;
   font-size: 16px;
   font-weight: 700;
-}
-.dsc-cart-item-quantity-container p{
-  margin: 0 5px;
+  
 }
 
 .dsc-cart-item-right{
@@ -77,4 +57,27 @@ normal da tela
 .dsc-cart-item-quantity-btn{
   color: var(--dsc-color-btn-primary); 
  cursor: pointer;
+}
+
+.dsc-cart-item-quantity-container p{
+  margin: 0 5px;
+}
+
+/* a partir da medida 576 volto ao modo
+normal da tela 
+*/
+
+@media (min-width: 576px) {
+  .dsc-cart-item-container{
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .dsc-cart-item-right{
+    padding-top: 10px;
+  }
+
+  .dsc-cart-total-container h3{
+    text-align: right;
+  }
 }
