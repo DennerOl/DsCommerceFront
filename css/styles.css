@@ -265,6 +265,24 @@ ajusto o conteudo com a reponsividade
 
 }
 
+.dsc-select{
+  color: var(--dsc-color-font-placeholder);
+}
+
+.dsc-select option[disabled]{
+  display: none;
+}
+.dsc-select option{
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-textarea {
+  resize: none;
+  height: 128px;
+  padding-top:10px ;
+  
+}
+
 @media (min-width: 576px ){
   .dsc-form h2{
     font-size: 20px
