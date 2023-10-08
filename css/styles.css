@@ -58,6 +58,13 @@ main {
   
 }
 
+.dsc-section-title{
+  text-align: center;
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+}
+
+
 /* header styles-------------------------------------------*/
 header {
   background-color: var(--dsc-color-bg-secondary);
@@ -287,5 +294,20 @@ ajusto o conteudo com a reponsividade
   .dsc-form h2{
     font-size: 20px
   }
+}
+/*--------------------------------------
+table styles------------------
+*/
+.dsc-table{
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
 
+}
+.dsc-table thead {
+background-color: var(--dsc-color-card-bg);
+}
+
+.dsc-table tbody{
+  background-color: var(--dsc-color-card-bg);
 }
