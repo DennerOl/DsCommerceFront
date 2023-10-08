@@ -65,6 +65,10 @@ main {
 }
 
 
+.dsc-txt-left{
+  text-align: left; 
+ }
+
 /* header styles-------------------------------------------*/
 header {
   background-color: var(--dsc-color-bg-secondary);
@@ -305,9 +309,20 @@ table styles------------------
 
 }
 .dsc-table thead {
-background-color: var(--dsc-color-card-bg);
+  height: 55px;
+  font-size: 14px;
+  background-color: var(--dsc-color-card-bg);
+  color: var(--dsc-color-font-primary);
 }
 
 .dsc-table tbody{
+  text-align: center;
+  font-size: 12px;
   background-color: var(--dsc-color-card-bg);
+  color: var(--dsc-color-font-primary);
+}
+
+.dsc-table tbody tr{
+  height:  70px;
+  border-top: 1px solid var(--dsc-color-card-border);
 }
