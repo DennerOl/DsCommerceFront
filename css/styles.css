@@ -64,9 +64,16 @@ main {
   font-size: 16px;
 }
 
-
 .dsc-txt-left{
   text-align: left; 
+ }
+
+ @media (min-width: 576px){
+  .dsc-section-title{
+    text-align: left;
+    font-size: 24px;
+  }
+  
  }
 
 /* header styles-------------------------------------------*/
@@ -325,4 +332,65 @@ table styles------------------
 .dsc-table tbody tr{
   height:  70px;
   border-top: 1px solid var(--dsc-color-card-border);
+}
+
+.dsc-table th:nth-child(2) {
+  border-top-left-radius: 10px;
+}
+
+.dsc-table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.dsc-table td:nth-child(2) {
+  padding-left: 10px;
+}
+
+.dsc-table td:last-child {
+  padding-right: 5px;
+}
+
+.dsc-tb576 {
+  display: none;
+}
+
+
+
+@media(min-width: 576px){
+  .dsc-tb576 {
+    display: table-cell;
+  }
+
+  .dsc-table th:nth-child(1) {
+    padding-left: 20px;
+    border-top-left-radius: 10px;
+  }
+
+  .dsc-table th:nth-child(2) {
+    border-top-left-radius: 0;
+  }
+
+  .dsc-table td:nth-child(1) {
+    padding-left: 20px;
+  }
+
+  .dsc-table td:nth-child(2) {
+    padding-left: 0;
+  }
+}
+
+.dsc-tb768 {
+  display: none;
+}
+
+@media(min-width: 768px){
+  .dsc-tb768 {
+    display: table-cell;
+  }
+}
+
+@media (min-width: 992px) {
+  .dsc-table tbody {
+    font-size: 16px;
+  }
 }
