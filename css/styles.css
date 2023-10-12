@@ -96,13 +96,32 @@ nav {
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 nav a {
   font-size: 14px;
   font-weight: 700;
+}
+
+.dsc-navbar-right{
+  display: flex;
+  align-items: center;
+}
+
+.dsc-menu-items-container{
+  display: flex;
+
+}
+
+.dsc-menu-items-container img{
+  width: 20px;
+  height: 20px;
+}
+
+.dsc-menu-item{
+  margin-right: 20px;
 }
 
 .dsc-logged-user{
@@ -113,6 +132,13 @@ nav a {
 
 .dsc-logged-user p{
   font-size: 12px;
+}
+
+@media(min-width: 576px){
+  nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
 }
 
 /* configuração largura da tela e centralização*/
